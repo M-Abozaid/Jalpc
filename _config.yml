@@ -9,7 +9,7 @@ baseurl:  m-abozaid.github.io/ # if you have suburl as homepage like '/homepage'
 url: http:/m-abozaid.github.io/  # url should be 'http://<github_username>.github.io/homepage' as before
 # url: http://127.0.0.1:4000
 img_path: m-abozaid.github.io/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
-=======
+
 baseurl: m-abozaid.github.io/  # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 url: http://m-abozaid.github.io/  # url should be 'http://<github_username>.github.io/homepage' as before
 # url: http://127.0.0.1:4000
@@ -22,7 +22,7 @@ author:  # change following line to your infomation.
   first_name: Muhammed  # Be used at index page about me section.
   last_name: Abozaid  # Be used at index page about me section.
   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
-=======
+
   avatar: m-abozaid.github.io/static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
 
   github_username: m-abozaid  # Leave blank if you don't have now
