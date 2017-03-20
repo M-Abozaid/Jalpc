@@ -8,18 +8,18 @@
 	{% endif %}
 
 <body id="page-top" class="landing-page">
+	<div class="container" style="margin-right: 150px; margin-left: 150px;">
+		{% if page.title != 'index' %}
+		    {% include blog_header.html %}
+		{% endif %}
 
-	{% if page.title != 'index' %}
-	    {% include blog_header.html %}
-	{% endif %}
+	    {{ content }}
 
-    {{ content }}
-
-	{% if page.title != 'index' %}
-	    {% include foot.html %}
-	{% else %}
-		{% include index_foot.html %}
-	{% endif %}
-
+		{% if page.title != 'index' %}
+		    {% include foot.html %}
+		{% else %}
+			{% include index_foot.html %}
+		{% endif %}
+	</div>
 </body>
 </html>
